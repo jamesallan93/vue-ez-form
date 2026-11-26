@@ -3,6 +3,8 @@ import { themeDefault } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
+  // Served from https://jamesallan93.github.io/vue-ez-form/ on GitHub Pages.
+  base: '/vue-ez-form/',
   lang: 'en-US',
   title: 'EzForm',
   description:
@@ -11,10 +13,8 @@ export default defineUserConfig({
   bundler: viteBundler(),
   theme: themeDefault({
     logo: '/logo.svg',
-    // Fill in once this is pushed, e.g. 'your-org/ezform'. Enables the repo link/icon
-    // and "Edit this page" links in the default theme.
-    // repo: 'your-org/ezform',
-    // docsDir: 'docs',
+    repo: 'jamesallan93/vue-ez-form',
+    docsDir: 'docs',
     navbar: [
       { text: 'Guide', link: '/guide/' },
       { text: 'Examples', link: '/guide/examples.md' },
