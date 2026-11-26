@@ -3,6 +3,14 @@
   "version": "0.0.1",
   "type": "module",
   "description": "A validator-agnostic, component-agnostic Vue 3 form engine.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesallan93/vue-ez-form.git"
+  },
+  "homepage": "https://github.com/jamesallan93/vue-ez-form#readme",
+  "bugs": {
+    "url": "https://github.com/jamesallan93/vue-ez-form/issues"
+  },
   "files": [
     "dist"
   ],
