@@ -18,7 +18,6 @@ export default defineUserConfig({
     docsDir: 'docs',
     navbar: [
       { text: 'Guide', link: '/guide/' },
-      { text: 'Examples', link: '/guide/examples.md' },
     ],
     // Nested groups use `items`, not `children`. Verified against the installed
     // package's own SidebarItem type (node_modules/@vuepress/theme-default/dist/node/index.d.ts).
@@ -52,11 +51,6 @@ export default defineUserConfig({
           { text: 'Slots', link: '/guide/slots.md' },
           { text: 'The Form API', link: '/guide/form-api.md' },
         ],
-      },
-      {
-        text: 'More',
-        collapsed: false,
-        items: [{ text: 'Examples', link: '/guide/examples.md' }],
       },
     ],
   }),

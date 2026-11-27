@@ -24,8 +24,6 @@ Also I wanted to explore AI driven development using specs, tracking what's buil
 
 - `src/`: the library itself (`Form.vue`, `useFormEngine`, the plugin, types).
 - `docs/`: the [VuePress](https://vuepress.vuejs.org) documentation site.
-- `examples/shadcn-vue`: a full runnable app wiring EzForm up to real shadcn-vue
-  components, vee-validate, and zod. See its own README.
 - `openspec/`: spec-driven change tracking for this project (`openspec/specs`,
   `openspec/changes/archive`).
 
@@ -35,7 +33,6 @@ This project runs entirely in Docker. See `compose.yaml` for each service:
 
 ```bash
 docker compose up app             # the library's own playground, http://localhost:5174
-docker compose up shadcn-example  # the shadcn-vue example app,    http://localhost:5175
 docker compose up docs            # the documentation site,       http://localhost:8080
 ```
 

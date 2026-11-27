@@ -96,9 +96,5 @@ So you can't hand that object to EzForm's `validate` as-is. Two ways out:
    }
    ```
 
-   (This exact adapter lives in `examples/shadcn-vue/src/lib/vee-validate-adapter.ts`,
-   unused by that example's live demo. It only switched to a plain yup schema once this
-   was worked out.)
-
 Either way, vee-validate's `<VeeField>`/`useField` is never involved. Only its validation
 *logic*, if you want it.

@@ -34,8 +34,7 @@ const modelValue = defineModel<string>()
 </template>
 ```
 
-That's the whole contract. Style it however you want, use whatever UI library you want
-(the [shadcn-vue example](/guide/examples.md) wraps reka-ui primitives this exact way),
+That's the whole contract. Style it however you want, use whatever UI library you want, and
 render it with a design system's own `Field`/`FieldLabel`/`FieldError` wrapper components.
 EzForm has no opinion on any of it.
 
