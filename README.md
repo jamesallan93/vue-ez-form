@@ -14,12 +14,6 @@
   <a href="https://www.npmjs.com/package/vue-ez-form" target="_blank">
     <img src="https://img.shields.io/npm/v/vue-ez-form.svg?label=npm&color=42b883" alt="npm version" />
   </a>
-  <a href="https://npm-stat.com/charts.html?package=vue-ez-form" target="_blank">
-    <img src="https://img.shields.io/npm/dm/vue-ez-form.svg?label=downloads&color=35495e" alt="monthly downloads" />
-  </a>
-  <a href="https://bundlephobia.com/package/vue-ez-form" target="_blank">
-    <img src="https://img.shields.io/bundlephobia/minzip/vue-ez-form?label=size&color=0ea5e9" alt="bundle size" />
-  </a>
   <img src="https://img.shields.io/badge/Vue-3.5+-42b883?logo=vuedotjs&logoColor=white" alt="Vue 3.5+" />
   <img src="https://img.shields.io/badge/TypeScript-ready-3178c6?logo=typescript&logoColor=white" alt="TypeScript ready" />
   <a href="https://standardschema.dev" target="_blank">
@@ -27,6 +21,9 @@
   </a>
   <a href="https://vue-ez-form.pages.dev" target="_blank">
     <img src="https://img.shields.io/badge/docs-vue--ez--form.pages.dev-f97316" alt="docs" />
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license" />
   </a>
 </p>
 
@@ -154,3 +151,7 @@ some work, a coffee helps me keep going (and keeps my cat fed 🐱).
 <a href="https://buymeacoffee.com/jamesallandev" target="_blank">
   <img src="https://raw.githubusercontent.com/jamesallan93/vue-ez-form/main/assets/buy-me-a-coffee.png" alt="Buy me a coffee" width="200" />
 </a>
+
+## 📄 License
+
+[MIT](LICENSE)

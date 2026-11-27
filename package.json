@@ -1,8 +1,11 @@
 {
   "name": "vue-ez-form",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "description": "A validator-agnostic, component-agnostic Vue 3 form engine.",
+  "license": "MIT",
+  "author": "James Allan",
+  "keywords": ["vue", "vue3", "form", "forms", "form-builder", "schema", "validation", "zod", "valibot", "standard-schema", "typescript"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jamesallan93/vue-ez-form.git"
