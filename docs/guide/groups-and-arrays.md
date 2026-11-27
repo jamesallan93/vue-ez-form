@@ -135,7 +135,7 @@ isolation:
 - Scalar `items` (a plain input, e.g. `{ type: 'text', name: 'tag' }`): a plain value, e.g.
   `'vue'`.
 - Object-shaped `items` (a group, e.g. `{ fields: { title, duration } }`): a whole object,
-  e.g. `{ title: 'Vue', duration: '3' }` — `update(1, { title: 'Vue', duration: '3' })`
+  e.g. `{ title: 'Vue', duration: '3' }`. Calling `update(1, { title: 'Vue', duration: '3' })`
   writes into that item's `title` and `duration` fields in one call.
 - Nested-array `items`: an array of that nested item's own values, e.g. `['a', 'b']` for
   one row of a matrix.

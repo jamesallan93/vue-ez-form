@@ -8,7 +8,7 @@ export const EZFORM_CONFIG: InjectionKey<EzFormConfig> = Symbol('ezform-config')
  * descendant component (one dispatched via `componentMap`, or one rendered inside a custom
  * per-field slot, at any depth) can read the whole form's current values with `inject`,
  * without `Form.vue` having to pass it as a prop to every single component whether or not
- * it declared one — which would otherwise fall through as a stray DOM attribute on
+ * it declared one. Passing it as a prop would otherwise fall through as a stray DOM attribute on
  * components that didn't.
  */
 export const EZFORM_VALUES: InjectionKey<ComputedRef<Record<string, unknown>>> = Symbol('ezform-values')

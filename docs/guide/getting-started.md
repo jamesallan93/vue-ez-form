@@ -6,7 +6,7 @@
 npm install vue-ez-form
 ```
 
-`vue` is a peer dependency — install it too if your project doesn't already have it:
+`vue` is a peer dependency. Install it too if your project doesn't already have it:
 
 ```bash
 npm install vue

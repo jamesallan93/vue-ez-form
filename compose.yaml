@@ -20,8 +20,8 @@ services:
     ports:
       - "5175:5173"
     # The root is an npm workspace ("workspaces": ["examples/*"]) specifically so vue/zod/
-    # @vueuse/core/@standard-schema/spec hoist to one shared copy in /app/node_modules —
-    # this example imports EzForm's own src directly (no published package yet), and a
+    # @vueuse/core/@standard-schema/spec hoist to one shared copy in /app/node_modules.
+    # This example imports EzForm's own src directly (no published package yet), and a
     # second physical `vue` install breaks both type-checking and the Vue runtime itself.
     # `npm install` must run from /app (the workspace root), not this subfolder.
     command: sh -c "cd /app && npm install && cd examples/shadcn-vue && npm run dev"
