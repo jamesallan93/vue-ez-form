@@ -9,8 +9,8 @@ components and no validation library; you bring your own of each. EzForm's engin
 the field state (value/error/touched/dirty) and the renderer dispatches to your own
 `componentMap`.
 
-**Full documentation: [docs/](docs/)**. Run it locally with `docker compose up docs`,
-then open <http://localhost:8080>.
+**Full documentation: <https://vue-ez-form.pages.dev>**. The source lives in [docs/](docs/).
+Run it locally with `docker compose up docs`, then open <http://localhost:8080>.
 
 # Why I made this?
 
@@ -54,4 +54,4 @@ Published on npm as [`vue-ez-form`](https://www.npmjs.com/package/vue-ez-form):
 npm install vue-ez-form
 ```
 
-See [docs/guide/getting-started.md](docs/guide/getting-started.md) for the full setup.
+See [Getting Started](https://vue-ez-form.pages.dev/guide/getting-started) for the full setup.
