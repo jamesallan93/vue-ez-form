@@ -3,8 +3,9 @@ import { themeDefault } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
-  // Served from https://jamesallan93.github.io/vue-ez-form/ on GitHub Pages.
-  base: '/vue-ez-form/',
+  // Served from the domain root on Cloudflare Pages (https://vue-ez-form.pages.dev).
+  // Switch to '/vue-ez-form/' if moving back to GitHub Pages.
+  base: '/',
   lang: 'en-US',
   title: 'EzForm',
   description:
