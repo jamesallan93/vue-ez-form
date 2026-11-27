@@ -18,7 +18,15 @@ export default defineUserConfig({
     docsDir: 'docs',
     navbar: [
       { text: 'Guide', link: '/guide/' },
+      { text: '☕ Buy me a coffee', link: 'https://buymeacoffee.com/jamesallandev' },
     ],
+    // Shown on pages without a sidebar (the home page). Rendered as HTML by the theme.
+    footer: {
+      message:
+        'EzForm is free and built in my spare time. If it saves you some work, a coffee helps keep it going.<br><br>' +
+        '<a href="https://buymeacoffee.com/jamesallandev" target="_blank" rel="noopener">' +
+        '<img src="/buy-me-a-coffee.png" alt="Buy me a coffee" width="180"></a>',
+    },
     // Nested groups use `items`, not `children`. Verified against the installed
     // package's own SidebarItem type (node_modules/@vuepress/theme-default/dist/node/index.d.ts).
     // `children` is silently ignored, which is why these groups rendered with no links at all.
